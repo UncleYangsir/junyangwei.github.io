@@ -1,0 +1,114 @@
+body {
+  background-position: top left;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 3em 0;
+  font-family: 'Gentium Book Basic';
+  line-height: 1.5;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+h1 {
+  color: #1079ac;
+  font-weight: normal;
+  text-align: center;
+  font-size: 5rem;
+}
+
+h2 {
+  font-weight: normal;
+  margin: 1.4em 0 0.2em;
+  color: #1079ac;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  /* display: table;
+  box-sizing: border-box;
+  border-spacing: 2px;
+  border-color: grey; */
+}
+
+#container {
+  color: #000;
+  background-color: #FFF;
+  margin: 0 auto;
+  max-width: 640px;
+  position: relative;
+}
+
+#name {
+  margin-bottom: 0em;
+}
+
+#email {
+  text-align: center;
+  color: #000;
+  position: relative;
+  top: -1.5em;
+  line-height: 1;
+}
+
+#atsign {
+  color: #1079ac;
+  font-weight: bold;
+}
+
+#split {
+  display: inline-block;
+  position: relative;
+  top: 1em;
+  text-align: left;
+}
+
+#information {
+  text-align: center;
+}
+
+#projects {
+  width: 100%;
+}
+
+#projects td {
+  padding: 0.15em 0;
+}
+
+#projects th {
+  font-weight: normal;
+  width: 8em;
+  line-height: 1.1;
+  text-align: right;
+  vertical-align: top;
+  padding: 0.3em 1.2em 0 0;
+}
+
+#projects .otherlinks td {
+  padding-top: 1em;
+  text-align: center;
+  color: #888;
+}
+
+#project .otherlinks a {
+  text-decoration: none;
+  color: #88E;
+}
+
+#project .otherlinks a:hover {
+  text-decoration: underline;
+}
+
+.blurb td, .blurb, th {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  vertical-align: top;
+}
+
+.blurb th {
+  padding-right: 1rem;
+}
